@@ -9,6 +9,8 @@
 </head>
 <body>
 
+<!-- Jstl core tag -->
+
 <c:set var="stuff" value="<%= new java.util.Date() %>"/>
 
 Time on the server is ${stuff}
